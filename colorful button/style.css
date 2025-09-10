@@ -1,9 +1,12 @@
-html, body{
+html,
+body {
     margin: 0;
     padding: 0;
+    background-color: var(--body-bg);
 }
-:root{
-    --font-family:'Karla', sans-serif;
+
+:root {
+    --font-family: 'Karla', sans-serif;
     --body-bg: #1E1F25;
     --btn-bg: #000;
     --btn-color: #cbcbcb;
@@ -11,6 +14,18 @@ html, body{
     --grad-color1: #eeaf61;
     --grad-color2: #fb9062;
     --grad-color3: #ee5d6c;
-    --grad-color4:#ce4993;
+    --grad-color4: #ce4993;
     --grad-color5: #6a0d83;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button-border {
+    background: linear-gradient(115deg, #eeaf61, #fb9062, #ee5d6c, #ce4993, #6a0d83);
+    padding: 2px;
 }
